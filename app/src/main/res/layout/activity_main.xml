@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -15,75 +15,75 @@
         tools:context=".MainActivity">
 
         <TextView
-            android:layout_width="225dp"
+            android:layout_width="@dimen/elementLayoutWidth"
             android:layout_height="wrap_content"
             android:text="@string/my_title"
             android:layout_centerHorizontal="true"
             android:id="@+id/text"
             android:gravity="center"
-            android:layout_marginBottom="30dp"
-            android:textSize="20sp" />
+            android:layout_marginBottom="@dimen/textViewBottomMargin"
+            android:textSize="@dimen/textSize" />
 
         <Button
-            android:layout_width="225dp"
+            android:layout_width="@dimen/elementLayoutWidth"
             android:layout_height="wrap_content"
             android:text="@string/media_streamer"
             android:id="@+id/button2"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/text"
-            android:layout_marginBottom="15dp"
-            android:background="#F08C35" />
+            android:layout_marginBottom="@dimen/buttonLayoutMargin"
+            android:background="@color/orange" />
 
         <Button
-            android:layout_width="225dp"
+            android:layout_width="@dimen/elementLayoutWidth"
             android:layout_height="wrap_content"
             android:text="@string/super_duo1"
             android:id="@+id/button3"
             android:layout_below="@+id/button2"
             android:layout_centerHorizontal="true"
-            android:background="#F08C35"
-            android:layout_marginBottom="15dp"
+            android:background="@color/orange"
+            android:layout_marginBottom="@dimen/buttonLayoutMargin"
             android:clickable="true" />
 
         <Button
-            android:layout_width="225dp"
+            android:layout_width="@dimen/elementLayoutWidth"
             android:layout_height="wrap_content"
             android:text="@string/super_duo2"
             android:id="@+id/button4"
             android:layout_below="@+id/button3"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp"
-            android:background="#F08C35" />
+            android:layout_marginBottom="@dimen/buttonLayoutMargin"
+            android:background="@color/orange" />
 
         <Button
-            android:layout_width="225dp"
+            android:layout_width="@dimen/elementLayoutWidth"
             android:layout_height="wrap_content"
             android:text="@string/ant_terminator"
             android:id="@+id/button5"
             android:layout_below="@+id/button4"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp"
-            android:background="#F08C35" />
+            android:layout_marginBottom="@dimen/buttonLayoutMargin"
+            android:background="@color/orange" />
 
         <Button
-            android:layout_width="225dp"
+            android:layout_width="@dimen/elementLayoutWidth"
             android:layout_height="wrap_content"
             android:text="@string/materialize"
             android:id="@+id/button6"
             android:layout_below="@+id/button5"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp"
-            android:background="#F08C35" />
+            android:layout_marginBottom="@dimen/buttonLayoutMargin"
+            android:background="@color/orange" />
 
         <Button
-            android:layout_width="225dp"
+            android:layout_width="@dimen/elementLayoutWidth"
             android:layout_height="wrap_content"
             android:text="@string/capstone"
             android:id="@+id/button7"
             android:layout_below="@+id/button6"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="15dp"
-            android:background="#F50057" />
+            android:layout_marginBottom="@dimen/buttonLayoutMargin"
+            android:background="@color/red" />
     </RelativeLayout>
 
 </ScrollView>
