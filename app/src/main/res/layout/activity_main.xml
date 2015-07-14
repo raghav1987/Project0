@@ -32,7 +32,8 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/text"
             android:layout_marginBottom="@dimen/buttonLayoutMargin"
-            android:background="@color/orange" />
+            android:background="@color/orange"
+            android:onClick="startProject"/>
 
         <Button
             android:layout_width="@dimen/elementLayoutWidth"
@@ -41,9 +42,9 @@
             android:id="@+id/button3"
             android:layout_below="@+id/button2"
             android:layout_centerHorizontal="true"
-            android:background="@color/orange"
             android:layout_marginBottom="@dimen/buttonLayoutMargin"
-            android:clickable="true" />
+            android:background="@color/orange"
+            android:onClick="startProject"/>
 
         <Button
             android:layout_width="@dimen/elementLayoutWidth"
@@ -53,7 +54,8 @@
             android:layout_below="@+id/button3"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/buttonLayoutMargin"
-            android:background="@color/orange" />
+            android:background="@color/orange"
+            android:onClick="startProject"/>
 
         <Button
             android:layout_width="@dimen/elementLayoutWidth"
@@ -63,7 +65,8 @@
             android:layout_below="@+id/button4"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/buttonLayoutMargin"
-            android:background="@color/orange" />
+            android:background="@color/orange"
+            android:onClick="startProject"/>
 
         <Button
             android:layout_width="@dimen/elementLayoutWidth"
@@ -73,7 +76,8 @@
             android:layout_below="@+id/button5"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/buttonLayoutMargin"
-            android:background="@color/orange" />
+            android:background="@color/orange"
+            android:onClick="startProject"/>
 
         <Button
             android:layout_width="@dimen/elementLayoutWidth"
@@ -83,7 +87,8 @@
             android:layout_below="@+id/button6"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/buttonLayoutMargin"
-            android:background="@color/red" />
+            android:background="@color/red"
+            android:onClick="startProject"/>
     </RelativeLayout>
 
 </ScrollView>
